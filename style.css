@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #d8d7d7;
+    color: #333;
+}
+
+/* Naslovi */
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* Navigacijska lista */
+nav p {
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraf o meni */
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Boja za mark tekst */
+mark {
+    background-color: #fffa65;
+    padding: 0 4px;
+}
+
+/* Stil za liste */
+ol, ul {
+    margin-left: 20px;
+}
+
+/* Slike */
+.slike {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* Gumb na početnu stranicu */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Video i audio*/
+video, audio, iframe {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    border-radius: 8px;
+}
